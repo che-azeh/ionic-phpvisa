@@ -1,0 +1,7 @@
+{
+  "name": "phpvisa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
