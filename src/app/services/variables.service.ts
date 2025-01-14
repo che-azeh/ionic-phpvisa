@@ -11,7 +11,7 @@ export class Variables {
   public apiRoot: string;
   public appId: string = 'com.ionic-phpvisa';
   public apiKey: string = '012345abcdefghijklmnopqrstuvwxyz';
-  public live: boolean = true;
+  public live: boolean = false;
 
   constructor(
     private alertCtrl: AlertController,

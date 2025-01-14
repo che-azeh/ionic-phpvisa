@@ -93,7 +93,7 @@ export class DataService {
   async handle_loading() {
     this.loader = await this.loadingController.create({
       message: 'Contacting Server...',
-      // duration: 3000,
+      duration: 3000,
     });
     await this.loader.present();
   }
